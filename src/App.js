@@ -21,7 +21,7 @@ function App() {
     // console.log(data)
 
     const films = await data.json();
-    // console.log(films);
+    //console.log(films);
 
     saveFilms(films);
   }
